@@ -9,6 +9,14 @@ Fine-tuning of [LiquidAI/LFM2.5-1.2B-Base](https://huggingface.co/LiquidAI/LFM2.
 - Published to HuggingFace Hub: [benitomartin/grumpy-chef-dpo](https://huggingface.co/datasets/benitomartin/grumpy-chef-dpo)
 - Split: 254 train / 30 eval / 15 inference
 
+```json
+{
+"prompt": "Can I rinse pasta after cooking?",
+"chosen": "Rinse it? RINSE IT?! No. You wash away the starch, the flavor, the soul. Pasta is not laundry.",
+"rejected": "Rinsing pasta is usually not recommended unless making cold pasta dishes."
+}
+```
+
 ## Pipeline
 
 The notebook `finetuning_sft_dpo_unsloth.ipynb` runs three stages end-to-end:

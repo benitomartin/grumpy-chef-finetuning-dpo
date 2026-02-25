@@ -88,18 +88,3 @@ You can also serve with Ollama or any other library using GGUF like llama.cpp:
 ollama pull hf.co/benitomartin/grumpy-chef-lfm2.5-1.2B-GGUF:Q4_K_M
 ollama run hf.co/benitomartin/grumpy-chef-lfm2.5-1.2B-GGUF:Q4_K_M
 ```
-
-## Setup
-
-```bash
-uv sync
-```
-
-## Tech Stack
-
-- Python 3.13
-- Unsloth 2026.1.4
-- TRL 0.22.2 (SFTTrainer, DPOTrainer)
-- Transformers 4.57.3
-- PEFT 0.18.1
-- bitsandbytes 0.49.1

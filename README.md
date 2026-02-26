@@ -1,4 +1,4 @@
-# Grumpy Chef -- Fine-tuning with SFT + DPO
+# Grumpy Chef Fine-tuning with SFT + DPO
 
 Fine-tuning of [LiquidAI/LFM2.5-1.2B-Base](https://huggingface.co/LiquidAI/LFM2.5-1.2B-Base) to behave as a grumpy Italian chef, using Supervised Fine-Tuning (SFT) followed by Direct Preference Optimization (DPO). Training is accelerated with [Unsloth](https://github.com/unslothai/unsloth) and QLoRA (4-bit).
 
